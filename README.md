@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+## Product Management Application
+This is a Product Management Application built using React and React Router. The application allows users to view a list of products, add new products, and navigate between different pages seamlessly. Below is a detailed guide to help you get started with the project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+
+  Features - 
+  Getting Started - 
+  Prerequisites - 
+  Installation - 
+  Available Scripts - 
+  Styling - 
+  Testing - 
+  Deployment - 
+
+## Features
+Product Dashboard: Displays a grid of products fetched from an external API.
+Add Product: Allows users to add a new product with details like name, image URL, price, and category.
+Responsive Design: The application is designed to work seamlessly across different devices.
+Routing: Uses React Router for navigation between the Home and Add Product pages.
+Styling: Custom CSS styles for a clean and modern look.
+
+## Getting Started
+## Prerequisites
+Before you begin, ensure you have the following installed:
+
+Node.js (v14 or higher)
+npm (Node Package Manager)
+
+## Installation
+
+Clone the repository:
+git clone https://github.com/jo-sh-varughese/Product-Application-Using-React-ICT
+
+Navigate to the project directory:
+cd Product-Application-Using-React-ICT
+
+Install dependencies:
+npm install
 
 ## Available Scripts
+In the project directory, you can run the following commands:
 
-In the project directory, you can run:
+npm start:
+Runs the app in development mode. Open http://localhost:3000 to view it in your browser. The page will reload automatically when you make changes.
 
-### `npm start`
+npm test:
+Launches the test runner in interactive watch mode. See the running tests section for more details.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+npm run build:
+Builds the app for production to the build folder. It optimizes the build for the best performance.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm run eject:
+Note: This is a one-way operation. Once you eject, you can’t go back!
+If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project and give you full control over the configuration files.
 
-### `npm test`
+## Styling
+The application uses custom CSS for styling. The main styles are defined in src/styles.css, which includes:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+General Styles: Fonts, colors, and layout.
+Navbar Styles: Styling for the navigation bar.
+Dashboard Styles: Grid layout for displaying products.
+Add Product Styles: Form styling for adding new products.
 
-### `npm run build`
+## Testing
+The application includes basic tests using Jest and React Testing Library. To run the tests, use the following command:
+npm test
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment
+To deploy the application, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Build the app for production:
+npm run build
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Deploy the build folder to your preferred hosting service (e.g., Netlify, Vercel, GitHub Pages).
+For more details, refer to the Create React App deployment guide.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+React: A JavaScript library for building user interfaces.
+React Router: Declarative routing for React.js.
+Jest: A delightful JavaScript testing framework.
+Feel free to reach out if you have any questions or need further assistance!
